@@ -36,3 +36,43 @@ nav {
   font-weight: 900;
   line-height: normal;
 }
+
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+}
+ul {
+  display: flex;
+  gap: 32px;
+  color: #3c354f;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  align-items: center;
+  padding-right: 55px;
+}
+a {
+  text-decoration: none;
+  color: #3c354f;
+}
+
+.png-logo {
+  width: 20px;
+  height: 20px;
+}
+.follow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: rgba(11, 2, 35, 0.1);
+  padding: 13px 15px 13px 15px;
+  border-radius: 8px;
+}
