@@ -1,0 +1,210 @@
+/* Responsive styles for mobile devices */
+@media only screen and (max-width: 600px) {
+    /* nav section */
+    .nav-list {
+      display: flex;
+      justify-content: flex-end;
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+      /* padding-left: 35px; */
+      padding-right: 31px;
+  }
+    .logo {
+      padding-left: 15px;
+    }
+    ul {
+      padding-right: 15px;
+    }
+  
+    /* header section */
+    header {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+    .header-title {
+      font-size: 32px;
+    }
+    .header-sub {
+      font-size: 64px;
+    }
+    .header-p {
+      font-size: 16px;
+    }
+    .btn1,
+    .btn2 {
+      font-size: 11px;
+      padding: 13px 20px;
+    }
+    .header-img {
+      /* display: none; */
+    }
+    .header-div{
+        background-image: url('./images/Group\ 14.png');
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .header-img {
+      /* padding-left: 261px; */
+      height: 511px;
+      width: 229px;
+      height: 200px;
+      padding-left: 0px;
+      margin-top: 20px;
+  
+  }
+  
+    /* we are gamer section */
+    .we-are-gamer-title {
+      text-align: center;
+      font-family: Work Sans;
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+  }
+  .game{
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .game2{
+    padding-left: 0px
+  }
+    .we-are-gamer {
+      flex-direction: column;
+    }
+    .we-are-gamer-img {
+      width: 100%;
+      padding-left: 0;
+      padding-top: 0;
+    }
+    .we-are-gamer-title {
+      font-size: 32px;
+    }
+    .we-are-gamer-para {
+      font-size: 14px;
+      text-align: center;
+    }
+    .purpose{
+          color: #534c64;
+      text-align: center !important;
+      font-family: Work Sans;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 500;
+      margin-top: 1px;
+      margin-bottom: 1px;
+    }
+    .all-funny-games{
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+      margin-top: 44px;
+      flex-direction: column !important;
+    }
+  
+    /* funny games section */
+  
+    .play-instance{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-direction: column;
+    }
+    .rec1 {
+      text-align: center;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+  
+    /* install now section */
+    .install-now-title {
+      text-align: center;
+      font-size: 32px;
+    }
+    .ins2 {
+      font-size: 32px;
+    }
+    .ins-para {
+      font-size: 14px;
+      text-align: center;
+    }
+    .ins-img {
+      width: 100%;
+      height: auto;
+    }
+    .ins-img2 {
+      position: relative;
+      left: auto;
+      top: auto;
+      padding-top: 0;
+      width: 100%;
+      height: auto;
+    }
+  
+    /* games category section */
+    .games-cata {
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    .games-cata p {
+      font-size: 14px;
+    }
+    .ins-img {
+      width: 83%;
+      height: auto;
+      padding-left: 26px;
+    }
+    .ins-img2 {
+      position: relative;
+      left: -2px;
+      top: -89px;
+      padding-top: 0;
+      width: 42%;
+      height: auto;
+    }
+    .cate-games {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+    }
+  
+    .games-cata {
+      margin-top: 0;
+    }
+    /* footer section */
+    footer {
+      padding-top: 30px;
+    }
+    .logo-text-main {
+      font-size: 20px;
+    }
+    .nav-list ul {
+      display: block;
+      text-align: center;
+      margin-top: 15px;
+      margin-bottom: 15px;
+    }
+    .nav-list ul a {
+      display: block;
+      margin-bottom: 10px;
+    }
+    .follow {
+      justify-content: center;
+    }
+    .follow a {
+      margin-right: 10px;
+      margin-left: 10px;
+    }
+    .footer-copy {
+      text-align: center;
+    }
+  }

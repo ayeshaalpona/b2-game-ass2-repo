@@ -36,7 +36,6 @@ nav {
   font-weight: 900;
   line-height: normal;
 }
-
 main {
   max-width: 1140px;
   margin: 0 auto;
@@ -76,268 +75,270 @@ a {
   padding: 13px 15px 13px 15px;
   border-radius: 8px;
 }
-/* -----Nav section end */
 
-
-/* ----header section start------------  */
+/* header section  */
 
 .header-title {
-    color: #0b0223;
-    /* text-align: center; */
-    font-family: Work Sans;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    text-transform: uppercase;
-    margin-bottom: 0px;
-    margin-top: 0;
-    padding-top: 68px;
-  }
-  .header-sub {
-    /* text-align: center; */
-    font-family: Work Sans;
-    font-size: 95px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-    text-transform: uppercase;
-    background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    margin-top: 0px;
-    margin-bottom: 0px;
-  }
-  .header-p {
-    color: #534c64;
-    /* text-align: center; */
-    font-family: Work Sans;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-  }
-  .btn1 {
-    display: inline-flex;
-    padding: 17px 30px;
-    align-items: flex-start;
-    gap: 10px;
-    border-radius: 48px;
-    background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%));
-    border: 0px;
-    color: #fff;
-    font-family: Work Sans;
-    font-size: 13px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    text-transform: uppercase;
-    margin-right: 14px;
-  }
-  .btn2 {
-    display: inline-flex;
-    padding: 17px 30px;
-    align-items: flex-start;
-    gap: 10px;
-    border-radius: 48px;
-    background: #4ec5f7;
-    border: 0px;
-  
-    color: #fff;
-    font-family: Work Sans;
-    font-size: 13px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    text-transform: uppercase;
-  }
-  
-  .header-img {
-    padding-left: 261px;
-    height: 511px;
-    width: 524px;
-  }
-  /* Header section end------------- */
+  color: #0b0223;
+  /* text-align: center; */
+  font-family: Work Sans;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-bottom: 0px;
+  margin-top: 0;
+  padding-top: 68px;
+}
+.header-sub {
+  /* text-align: center; */
+  font-family: Work Sans;
+  font-size: 95px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-transform: uppercase;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.header-p {
+  color: #534c64;
+  /* text-align: center; */
+  font-family: Work Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.btn1 {
+  display: inline-flex;
+  padding: 17px 30px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 48px;
+  background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%));
+  border: 0px;
+  color: #fff;
+  font-family: Work Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-right: 14px;
+}
+.btn2 {
+  display: inline-flex;
+  padding: 17px 30px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 48px;
+  background: #4ec5f7;
+  border: 0px;
 
+  color: #fff;
+  font-family: Work Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+}
 
-  /* ---------------we are gamer styles------------- */
-  .we-are-gamer-img {
-    width: 601px;
-    padding-left: 25px;
-    padding-top: 32px;
-  }
-  .we-are-gamer-title {
-    text-align: right;
-    font-family: Work Sans;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-  .we-are-gamer-para {
-    color: #534c64;
-    text-align: right;
-    font-family: Work Sans;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-  }
+.header-img {
+  padding-left: 261px;
+  height: 511px;
+  width: 524px;
+}
+.we-are-gamer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 66, 165, 0.03) 0%,
+    rgba(255, 66, 165, 0.03) 100%
+  );
+}
+.we-are-gamer-img {
+  width: 601px;
+  padding-left: 25px;
+  padding-top: 32px;
+}
+.we-are-gamer-title {
+  text-align: right;
+  font-family: Work Sans;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.we-are-gamer-para {
+  color: #534c64;
+  text-align: right;
+  font-family: Work Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+}
+.funny-title {
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 77px;
+}
+.funny-title-span {
+  text-align: right;
+  font-family: Work Sans;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
+/* funny games section  */
 
-  .funny-title {
-    text-align: center;
-    font-family: Work Sans;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    margin-top: 77px;
-  }
-  .funny-title-span {
-    text-align: right;
-    font-family: Work Sans;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-  
-  /* funny games section--------------  */
+.rec1 {
+  /* text-align: center; */
+  margin-top: 20px;
+}
 
-  .rec1 {
-    /* text-align: center; */
-    margin-top: 20px;
-  }
-  
-  .image-container {
-    position: relative;
-    display: inline-block;
-  }
-  
-  .funny-img {
-    display: block;
-    width: 100%;
-    height: auto;
-  }
-  
-  .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(
-      0,
-      0,
-      0,
-      0.5
-    ); /* Adjust the opacity and color */
-    opacity: 0;
-    transition: opacity 0.3s ease;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border: 3px solid #fe57af;
-    border-radius: 15px;
-  }
-  
-  .overlay:hover {
-    opacity: 1;
-  }
-  
-  .overlay i {
-    color: #fff; /* Adjust the icon color as needed */
-    font-size: 32px; /* Adjust the icon size as needed */
-  }
-  
-  .overlay .text {
-    color: #fe57af; /* Adjust the text color as needed */
-    font-size: 18px; /* Adjust the text size as needed */
-    margin-top: 10px; /* Adjust the spacing between the icon and text as needed */
-  }
+.image-container {
+  position: relative;
+  display: inline-block;
+}
 
-  /* install now -----------*/
+.funny-img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ); /* Adjust the opacity and color as needed */
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid #fe57af;
+  border-radius: 15px;
+}
+
+.overlay:hover {
+  opacity: 1;
+}
+
+.overlay i {
+  color: #fff; /* Adjust the icon color as needed */
+  font-size: 32px; /* Adjust the icon size as needed */
+}
+
+.overlay .text {
+  color: #fe57af; /* Adjust the text color as needed */
+  font-size: 18px; /* Adjust the text size as needed */
+  margin-top: 10px; /* Adjust the spacing between the icon and text as needed */
+}
+
+/* install now */
 
 .install-now-title {
-    text-align: right;
-    font-family: Work Sans;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 700;
-  }
-  .ins2 {
-    text-align: right;
-    font-family: Work Sans;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 700;
-    background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-  .ins-para {
-    color: #534c64;
-    text-align: right;
-    font-family: Work Sans;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-  }
-  .ins-img {
-    width: 486px;
-    height: 488px;
-  }
-  
-  .ins-img2 {
-      position: absolute;
-      left: 543px;
-      top: auto;
-      padding-top: 295px;
-      /* bottom: 0px; */
-      width: 220px;
-      height: 240px;
-  }
-  
-  .games-cata:hover {
-    border-radius: 3px;
-    border: 3px solid pink;
-    cursor: pointer;
-    border-radius: 25px;
-    padding: 5px 2px 5px 2px;
-    color: pink;
-  }
-  
-  .games-cata p {
-    color: #0b0223;
-  ;
-  }
-  .games-cata:hover p {
-    color: #fe7cc1;
-  }
-  .game{
-    display: flex;
-                display: flex;
-                flex-direction: column;
-                align-items: flex-end;
-  }
-  .game2{
-    padding-left: 71px;
-  }
-  .cate-games {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 20px;
-    align-items: center;
-    justify-items: end;
-  }
+  text-align: right;
+  font-family: Work Sans;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+}
+.ins2 {
+  text-align: right;
+  font-family: Work Sans;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.ins-para {
+  color: #534c64;
+  text-align: right;
+  font-family: Work Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+}
+.ins-img {
+  width: 486px;
+  height: 488px;
+}
+
+.ins-img2 {
+    position: absolute;
+    left: 543px;
+    top: auto;
+    padding-top: 295px;
+    /* bottom: 0px; */
+    width: 220px;
+    height: 240px;
+}
+
+.games-cata:hover {
+  border-radius: 3px;
+  border: 3px solid pink;
+  cursor: pointer;
+  border-radius: 25px;
+  padding: 5px 2px 5px 2px;
+  color: pink;
+}
+
+.games-cata p {
+  color: #0b0223;
+;
+}
+.games-cata:hover p {
+  color: #fe7cc1;
+}
+.game{
+  display: flex;
+              display: flex;
+              flex-direction: column;
+              align-items: flex-end;
+}
+.game2{
+  padding-left: 71px;
+}
+.cate-games {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  align-items: center;
+  justify-items: end;
+}
